@@ -17,7 +17,7 @@
 'use strict';
 
 angular.module('app')
-  .controller('CustomSettingsDemoCtrl', function($scope, $interval, $window, widgetDefinitions, defaultWidgets, RandomDataModel) {
+  .controller('CustomSettingsDemoCtrl', function($scope, $window, widgetDefinitions, defaultWidgets, RandomDataModel) {
 
     // Add an additional widget with setting overrides
     var definitions = [{
